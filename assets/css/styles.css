@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0071dc;
+  padding-inline: 1rem;
+  align-items: center;
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.navbar-brand:hover {
+  background-color: #00305d;
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.navbar-nav {
+  margin-inline: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-item {
+  width: 7em !important;
+}
+
+.search-bar {
+  width: 100%;
+  height: 52px;
+  background-color: white;
+  border-radius: 999px;
+  padding: 0.8em;
+  align-items: center;
+}
+
+.search-bar input {
+  border: none;
+}
+
+.search-bar input:focus {
+  box-shadow: none;
+}
+
+.btn.btn-search {
+  background-color: #0055a4fa;
+  border-radius: 50%;
+  padding-inline: 0.5em;
+  text-align: center;
+  align-items: center;
+}
+
+.btn.btn-search:hover {
+  background-color: #00305d;
+}
+
+.material-symbols-outlined {
+  font-size: 25px;
+  color: white;
+}
+
+.subnav {
+  display: flex;
+  gap: 2rem;
+  font-size: 14px;
+  height: 45px;
+  padding: 0 16px;
+  align-items: center;
+  padding-inline: 3rem;
+  background-color: rgb(242, 248, 253);
+}
+
+.subnav-item {
+  color: #4b4b4b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+
+.subnav-item :hover {
+  text-decoration: underline;
+}
+
+.depo {
+  border-radius: 99px;
+  width: 10em;
+}
+.depo:hover {
+  border: 1px solid #00305d;
+}
+
+.ser {
+  border-radius: 99px;
+  width: 8em;
+}
+.ser:hover {
+  border: 1px solid #00305d;
+}
+
+.hero img {
+  border-radius: 5px;
+}
+
+.hero img:hover {
+  cursor: pointer;
+}
+
+.side-column-img {
+  max-width: 320px;
+  cursor: pointer;
+}
+
+.mid-column-img {
+  max-width: 656px;
+  cursor: pointer;
+}
+
+.revamp-first-img {
+  max-width: 540px;
+  cursor: pointer;
+}
+
+.revamp-mid-img {
+  max-width: 430px;
+  cursor: pointer;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.trending {
+  margin-inline: 5rem;
+}
+
+.trending-img {
+  justify-content: center;
+}
+
+figure{
+  cursor: pointer;
+}
+
+
+.trending-img img {
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.final-footer {
+  cursor: pointer;
+}
+
+.h4tag {
+  font-size: 12px;
+}
+
+#feedback {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 99px;
+}
